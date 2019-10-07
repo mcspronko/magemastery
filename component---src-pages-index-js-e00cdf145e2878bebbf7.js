@@ -1,2 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[3],{212:function(e,n,a){"use strict";a.r(n);var t=a(0),l=a.n(t),o=a(210),r=a(209);n.default=function(){return l.a.createElement(o.a,null,l.a.createElement(r.a,{title:"Home"}),l.a.createElement("h1",null,"Hi Developer"),l.a.createElement("p",null,"Welcome to Mage Mastery - your resource of Magento 2 knowledge."),l.a.createElement("p",null,"The training materials are going to be uploaded soon."))}}}]);
-//# sourceMappingURL=component---src-pages-index-js-e00cdf145e2878bebbf7.js.map
