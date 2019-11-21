@@ -28,7 +28,7 @@
 /static/fbb983193c38def08030d786cecfa091/3fa08/magemastery.png 2x" src="/static/fbb983193c38def08030d786cecfa091/69781/magemastery.png" alt="Mage Mastery" style="position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center"/></picture></noscript></div></a></nav></header><main id="page-wrap" class="lesson"><div class="courses-header pb-5 pt-5"><div class="container"><h1 class="mb-0">04. A Module in Magento 2</h1><span class="">Course: <!-- -->Magento 2 for Beginners</span></div></div><div class="container mb-5 mt-0"><div class="content-container pt-5 pb-2"><div><p><div class="gatsby-resp-iframe-wrapper" style="padding-bottom: 56.42857142857143%; position: relative; height: 0; overflow: hidden; " > <div class="embedVideo-container"> <iframe src="https://www.youtube-nocookie.com/embed/CGEWkApKGbQ?rel=0" class="embedVideo-iframe" style="border:0; position: absolute; top: 0; left: 0; width: 100%; height: 100%; " allowfullscreen></iframe> </div> </div></p>
 <h1>A Module in Magento 2</h1>
 <p>Magento 2 is widely known for its extensibility. One of the extensibility concepts which Magento 2 Open Source supports is called Modularity.
-In this lesson I will introduce you to a Magento 2 Module. </p>
+In this lesson, we will learn what is a Magento 2 Module. </p>
 <h2>Lesson Overview</h2>
 <p>In this lesson we are going to learn the following:</p>
 <ul>
@@ -39,8 +39,8 @@ In this lesson I will introduce you to a Magento 2 Module. </p>
 <li>How to register a Module in a Magento 2?</li>
 </ul>
 <h2>What is a Magento 2 Module?</h2>
-<p>A Module in Magento 2 is an independent component or a set of components which provide business logic and features.
-Magento 2 Open Source is a modular application and it supports modularity. It means that all functionality is implemented and delivered in components which are known as Modules.
+<p>A Module in Magento 2 is an independent component or a set of components that provide business logic and features.
+Magento 2 Open Source is a modular application and it supports modularity. It means that all functionality is implemented and delivered in components that are known as Modules.
 A Component is also known and called an Extension. A module and an extension is basically the same thing.</p>
 <p><span
       class="gatsby-resp-image-wrapper"
@@ -70,15 +70,15 @@ A Component is also known and called an Extension. A module and an extension is 
       />
   </a>
     </span></p>
-<p>Each extension or module in Magento 2 provides a set of capabilities which support business and functional logic of a module. It allows to bring additional features for e-commerce store which is based on Magento 2. </p>
+<p>Each extension or module in Magento 2 provides a set of capabilities that support the business and functional logic of a module. It allows bringing additional features for the e-commerce store which is based on Magento 2. </p>
 <h3>Example</h3>
-<p>Let's take a Catalog module for example. The Catalog module provides a different set of features which includes Category Management, Product Management, Product Types support for Simple and Virtual products, Catalog browsing capability and so on.</p>
-<p>Also, the module provides extensibility points for other modules which allows to extend Catalog module with additional functionality. An example of such additional module is a Downloadable Product module.</p>
-<p>A module in Magento 2 could bring a complex set of features from one side and from the other side it could be a tiny feature which adds an icon to a Product page for example. </p>
+<p>Let's take a Catalog module for example. The Catalog module provides a different set of features which include Category Management, Product Management, Product Types support for Simple and Virtual products, Catalog browsing capability and so on.</p>
+<p>Also, the module provides extensibility points for other modules which allow to extend the Catalog module with additional functionality. An example of such an additional module is a Downloadable Product module.</p>
+<p>A module in Magento 2 could bring a complex set of features from one side and from the other side it could be a tiny feature that adds an icon to a Product page for example. </p>
 <h2>A Module Name</h2>
-<p>Each module name consists of two parts. A vendor name and a name of a module. These two parts are concatenated with a backslash <code class="language-text">_</code> or a backslash <code class="language-text">\</code>.
-As a result, the module name should follow the pattern <code class="language-text">VendorName_ModuleName</code>. For example, a Catalog module name is going to be a name of a <code class="language-text">Magento</code> vendor name and a <code class="language-text">Catalog</code> module name, which is a <code class="language-text">Magento_Catalog</code> or <code class="language-text">Magento\Catalog</code>. </p>
-<h2>Where should a Module should be located in Magento 2?</h2>
+<p>Each module's name consists of two parts. A vendor name and the name of a module. These two parts are concatenated with a <code class="language-text">_</code> (underscore) or a <code class="language-text">\</code> (backslash).
+As a result, the module name should follow the pattern <code class="language-text">VendorName_ModuleName</code>. For example, a Catalog module name is going to be the name of a <code class="language-text">Magento</code> vendor name and a <code class="language-text">Catalog</code> module name, which is a <code class="language-text">Magento_Catalog</code> or <code class="language-text">Magento\Catalog</code>. </p>
+<h2>Where should a Module be located in Magento 2?</h2>
 <p>That's a very interesting question. There are two locations where a module can be located in a Magento 2 application. </p>
 <p><span
       class="gatsby-resp-image-wrapper"
@@ -108,16 +108,16 @@ As a result, the module name should follow the pattern <code class="language-tex
     </span></p>
 <p>The first location is an <code class="language-text">app/code</code> directory. This directory is used to add all custom and 3rd-party Magento 2 modules.
 This location is usually used by development agencies, internal or in-house developers in order to simplify a development process.</p>
-<p>The second location is a <code class="language-text">vendor</code> directory. This directory is used during the <a href="/courses/magento-2-beginner/getting-started-with-magento-2">composer package management installation</a>. A module installation in Magento 2 with a composer package manager is recommended way of installing a Magento 2 module.</p>
+<p>The second location is a <code class="language-text">vendor</code> directory. This directory is used during the <a href="/courses/magento-2-beginner/getting-started-with-magento-2">composer package management installation</a>. A module installation in Magento 2 with a composer package manager is the recommended way of installing a Magento 2 module.</p>
 <p><em>Learn more about Magento 2 Open Source directory structure in the <a href="/courses/magento-2-beginner/project-structure-overview">Project Structure Overview</a> lesson.</em> </p>
 <h2>How to create a Module?</h2>
-<p>First thing we have to do in order to create a module is to create a module directory. Usually, all modules are located under the <code class="language-text">app/code</code> directory.
+<p>The first thing we have to do in order to create a module is to create a module directory. Usually, all modules are located under the <code class="language-text">app/code</code> directory.
 If you follow the previous lesson, the <code class="language-text">code</code> directory should be missing under the <code class="language-text">app</code> directory of a Magento 2 project.</p>
 <p>Inside the <code class="language-text">app</code> directory, let's create the <code class="language-text">code</code> directory. This is a directory where all modules should be located.
 Every Magento 2 module should be located under the <code class="language-text">app/code/VendorName/ModuleName</code> directory location.</p>
-<p>Let's create a vendor directory. In this lesson the vendor is a <code class="language-text">MageMastery</code>. The vendor directory provides a name of the module create.
-Inside the <code class="language-text">app/code/MageMastery</code> directory, let's create a module directory. For the module name this is going to be a <code class="language-text">FirstModule</code> directory name.</p>
-<p>There are two required files which have to be created in each Magento 2 module. These files are used to notify to Magento 2 about a module. The <code class="language-text">registration.php</code> and <code class="language-text">module.xml</code> files.</p>
+<p>Let's create a vendor directory. In this lesson, the vendor is a <code class="language-text">MageMastery</code>.
+Inside the <code class="language-text">app/code/MageMastery</code> directory, let's create a module directory. For the module name, this is going to be a <code class="language-text">FirstModule</code> directory name.</p>
+<p>There are two required files that have to be created in each Magento 2 module. These files are used to notify to Magento 2 about a module. The <code class="language-text">registration.php</code> and <code class="language-text">module.xml</code> files.</p>
 <p><span
       class="gatsby-resp-image-wrapper"
       style="position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 410px;"
@@ -161,8 +161,12 @@ ComponentRegistrar<span class="token punctuation">:</span><span class="token pun
 <p>The <code class="language-text">Magento\Framework\Component\ComponentRegistrar</code> class is used to register a new module in a Magento 2 application. </p>
 <p>The static <code class="language-text">register()</code> method accepts three arguments. The <code class="language-text">$componentType</code> argument accepts a type of a component, which in case of a module is <code class="language-text">ComponentRegistrar::MODULE</code>.
 The <code class="language-text">ComponentRegistrar::MODULE</code> is a constant of the <code class="language-text">Magento\Framework\Component\ComponentRegistrar</code> class and it is recommended to use this constant for the module registration.</p>
-<p>The second argument of the <code class="language-text">register()</code> method is a name of a module. As you can see the name is a <code class="language-text">VendorName_ModuleName</code>. In the above code sample the name is <code class="language-text">MageMastery_FirstModule</code>.</p>
+<p>The second argument of the <code class="language-text">register()</code> method is the name of the module. As you can see the name is a <code class="language-text">VendorName_ModuleName</code>. In the above code sample, the name is <code class="language-text">MageMastery_FirstModule</code>.</p>
 <p>The final argument is a PHP <code class="language-text">__DIR__</code> constant. It provides an actual location of the module and is interpreted into an <code class="language-text">/var/www/magento/app/code/MageMastery/FirstModule</code> in case a Magento 2 application is installed in the <code class="language-text">/var/www/magento</code> directory. </p>
+<p><strong>How does this work?</strong></p>
+<p>One of the allowed locations of the <code class="language-text">registration.php</code> file is <code class="language-text">app/code/VendorName/ModuleName</code> directory (in case of the current lesson the location is <code class="language-text">app/code/MageMastery/FirstModule/</code>).
+The <code class="language-text">registration.php</code> file is scanned and executed during the Magento 2 Open Source application start. The method <code class="language-text">register()</code> of the <code class="language-text">ComponentRegistrar</code> class adds the module name and its location into the global pool of all module's locations. Once added, Magento 2 Open Source then goes through all registered modules paths and reads the configuration of the <code class="language-text">module.xml</code> file. </p>
+<p>That is why it is important to have both files to successfully register a Module in Magento 2.</p>
 <h3>The module.xml file</h3>
 <p>The <code class="language-text">module.xml</code> file is used to declare and provide information about the module name and any dependencies to other 3rd-party or out-of-box Magento 2 modules.</p>
 <p>The <code class="language-text">module.xml</code> file is a main module's configuration file. It is required to place this file into the module's <code class="language-text">etc</code> directory. Let's create the directory inside the <code class="language-text">app/code/MageMastery/FirstModule</code> directory module.</p>
@@ -171,22 +175,22 @@ The <code class="language-text">ComponentRegistrar::MODULE</code> is a constant 
 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>config</span><span class="token punctuation">></span></span>
 
 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>config</span><span class="token punctuation">></span></span></code></pre></div>
-<p>This is a basic file content which is used across almost all Magento 2 configuration files. We are going to learn more about XML configuration files in the next lessons.</p>
+<p>This is a basic file content that is used across almost all Magento 2 configuration files. We are going to learn more about XML configuration files in the next lessons.</p>
 <p>Additionally, all XML files in Magento 2 contain 2 attributes in the <code class="language-text">&lt;config&gt;</code> node.
-The <code class="language-text">xmlns</code> attribute provides a location to the XMLSchema instance and the <code class="language-text">xsi:noNamespaceSchemaLocation</code> attribute provides a path to a XSD (XML Schema Definition) file of a Magento 2 framework.
+The <code class="language-text">xmlns</code> attribute provides a location to the XMLSchema instance and the <code class="language-text">xsi:noNamespaceSchemaLocation</code> attribute provides a path to an XSD (XML Schema Definition) file of a Magento 2 framework.
 The last one is used to provide XML validation and syntax highlighting capability to a configuration file.</p>
-<p>These attributes are not required, however it is recommended to follow the standard Magento practices and include it into XML files. </p>
+<p>These attributes are not required, however, it is recommended to follow the standard Magento practices and include it into XML files. </p>
 <p>As a result, the final <code class="language-text">module.xml</code> file should look like follow:</p>
 <div class="gatsby-highlight" data-language="xml"><pre class="language-xml"><code class="language-xml"><span class="token prolog">&lt;?xml version="1.0"?></span>
 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>config</span> <span class="token attr-name"><span class="token namespace">xmlns:</span>xsi</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>http://www.w3.org/2001/XMLSchema-instance<span class="token punctuation">"</span></span> 
         <span class="token attr-name"><span class="token namespace">xsi:</span>noNamespaceSchemaLocation</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>urn:magento:framework:Module/etc/module.xsd<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>
     <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>module</span> <span class="token attr-name">name</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>MageMastery_FirstModule<span class="token punctuation">"</span></span> <span class="token punctuation">/></span></span>
 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>config</span><span class="token punctuation">></span></span></code></pre></div>
-<p>The only required XML node which have to be added is a <code class="language-text">&lt;module /&gt;</code> one. The <code class="language-text">name</code> attribute should include a name of a current module, which is <code class="language-text">MageMastery_FirstModule</code>.</p>
+<p>The only required XML node which has to be added is a <code class="language-text">&lt;module /&gt;</code> one. The <code class="language-text">name</code> attribute should include the name of the current module, which is <code class="language-text">MageMastery_FirstModule</code>.</p>
 <h2>How to register a Module?</h2>
 <p>The last step is to run the command which will enable and install the <code class="language-text">MageMastery_First</code> module.</p>
 <div class="gatsby-highlight" data-language="bash"><pre class="language-bash"><code class="language-bash">bin/magento setup:upgrade</code></pre></div>
-<p>You may notice a new module added into the list of modules.</p>
+<p>You may notice a new module added to the list of modules.</p>
 <p>In order to check if the module has been added and enabled in a Magento 2 application.
 Here I use a <code class="language-text">grep</code> command to check a string in an <code class="language-text">app/etc/config.php</code> file. </p>
 <div class="gatsby-highlight" data-language="bash"><pre class="language-bash"><code class="language-bash"><span class="token function">grep</span> MageMastery_FirstModule app/etc/config.php</code></pre></div>
