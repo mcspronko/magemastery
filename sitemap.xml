@@ -1,5 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:mobile="http://www.google.com/schemas/sitemap-mobile/1.0" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
+<url> <loc>https://magemastery.net/courses/build-login-logout-php-mysql/creating-user-login-form</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://magemastery.net/courses/build-login-logout-php-mysql/creating-users-table-mysql-database</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://magemastery.net/courses/build-login-logout-php-mysql/querying-users-table-with-pdo-mysql</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://magemastery.net/courses/build-login-logout-php-mysql/authenticate-user</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://magemastery.net/courses/build-login-logout-php-mysql/adding-user-to-session</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://magemastery.net/courses/build-login-logout-php-mysql/user-logout</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://magemastery.net/courses/magento-2-beginner/introduction</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://magemastery.net/courses/magento-2-beginner/getting-started-with-magento-2</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://magemastery.net/courses/magento-2-beginner/project-structure-overview</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
@@ -9,15 +15,11 @@
 <url> <loc>https://magemastery.net/courses/magento-2-beginner/passing-data-from-controller-to-template</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://magemastery.net/courses/magento-2-beginner/view-model-magento-2</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://magemastery.net/courses/magento-2-beginner/model-magento-2</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://magemastery.net/courses/build-login-logout-php-mysql/creating-user-login-form</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://magemastery.net/courses/build-login-logout-php-mysql/creating-users-table-mysql-database</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://magemastery.net/courses/build-login-logout-php-mysql/querying-users-table-with-pdo-mysql</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://magemastery.net/courses/build-login-logout-php-mysql/authenticate-user</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://magemastery.net/courses/build-login-logout-php-mysql/adding-user-to-session</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://magemastery.net/courses/build-login-logout-php-mysql/user-logout</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://magemastery.net/courses/build-user-login-with-php-mysql</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://magemastery.net/courses/user-registration-with-php-mysql</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://magemastery.net/courses/magento-2-beginner</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://magemastery.net/courses/build-user-login-with-php-mysql</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://magemastery.net/blog/100-days-of-magento-challenge</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://magemastery.net/blog/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://magemastery.net/courses/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://magemastery.net/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://magemastery.net/subscribe/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
